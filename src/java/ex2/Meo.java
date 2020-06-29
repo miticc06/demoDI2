@@ -9,11 +9,14 @@ package ex2;
  *
  * @author miticc06
  */
-public class NhiemVuGiaiCuu extends  NhiemVu {
+public class Meo {
+    private NhiemVu nhiemVu;
 
-    @Override
-    public String ThucHien() {
-        return "Thực hiện nhiệm vụ giải cứu!";
+    public Meo(NhiemVu nhiemVu) {
+        this.nhiemVu = nhiemVu;
     }
     
+    public String ThamGiaNhiemVu() {
+        return nhiemVu.ThucHien();
+    }       
 }

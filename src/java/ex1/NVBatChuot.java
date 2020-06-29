@@ -13,8 +13,8 @@ package ex1;
  */
 
 // Nhiệm vụ giải cứu 
-public class NVGiaiCuu {
+public class NVBatChuot {
     public String ThucHien() {
-        return "Thực hiện nhiệm vụ giải cứu";
+        return "Thực hiện nhiệm vụ bắt chuột";
     }
 }

@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-import ex2.HiepSi;
- import ex2.NhiemVuGiaiCuu;
-import ex2.NhiemVuDietRong;
+import ex2.Meo;
+ import ex2.NhiemVuGiuNha;
+import ex2.NhiemVuBatChuot;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -37,8 +37,8 @@ public class ex2Servlet extends HttpServlet {
             throws ServletException, IOException {
         
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
-        NhiemVuGiaiCuu nhiemVuGiaiCuu = (NhiemVuGiaiCuu) context.getBean("NhiemVuGiaiCuu");
-        NhiemVuDietRong nhiemVuDietRong = (NhiemVuDietRong) context.getBean("NhiemVuDietRong");
+        NhiemVuBatChuot nhiemVuBatChuot = (NhiemVuBatChuot) context.getBean("NhiemVuBatChuot");
+        NhiemVuGiuNha nhiemVuGiuNha = (NhiemVuGiuNha) context.getBean("NhiemVuGiuNha");
 
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
@@ -50,9 +50,9 @@ public class ex2Servlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             
-            out.println("<h1>knight1: " + new HiepSi(nhiemVuGiaiCuu).ThamGia()+ "</h1>");
-            out.println("<h1>knight2: " + new HiepSi(nhiemVuDietRong).ThamGia() + "</h1>");
-            out.println("<h1>knight3: " + new HiepSi(nhiemVuGiaiCuu).ThamGia() + "</h1>");
+            out.println("<h1>Mèo 1: " + new Meo(nhiemVuBatChuot).ThamGiaNhiemVu()+ "</h1>");
+            out.println("<h1>Mèo 2: " + new Meo(nhiemVuGiuNha).ThamGiaNhiemVu() + "</h1>");
+            out.println("<h1>Mèo 3: " + new Meo(nhiemVuBatChuot).ThamGiaNhiemVu() + "</h1>");
 
             out.println("</body>");
             out.println("</html>");

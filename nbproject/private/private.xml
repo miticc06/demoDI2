@@ -5,15 +5,16 @@
         <group>
             <file>file:/C:/Users/miticc06/Desktop/demoo/src/java/ex2Servlet.java</file>
             <file>file:/C:/Users/miticc06/Desktop/demoo/web/WEB-INF/applicationContext.xml</file>
-            <file>file:/C:/Users/miticc06/Desktop/demoo/src/java/ex2/NhiemVuGiaiCuu.java</file>
             <file>file:/C:/Users/miticc06/Desktop/demoo/src/java/ex1Servlet.java</file>
-            <file>file:/C:/Users/miticc06/Desktop/demoo/src/java/ex2/NhiemVuDietRong.java</file>
-            <file>file:/C:/Users/miticc06/Desktop/demoo/web/WEB-INF/web.xml</file>
             <file>file:/C:/Users/miticc06/Desktop/demoo/src/java/beans.xml</file>
-            <file>file:/C:/Users/miticc06/Desktop/demoo/src/java/ex2/HiepSi.java</file>
-            <file>file:/C:/Users/miticc06/Desktop/demoo/src/java/ex1/HiepSiGiaiCuu.java</file>
+            <file>file:/C:/Users/miticc06/Desktop/demoo/src/java/ex2/Meo.java</file>
+            <file>file:/C:/Users/miticc06/Desktop/demoo/src/java/ex2/NhiemVuGiuNha.java</file>
+            <file>file:/C:/Users/miticc06/Desktop/demoo/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/miticc06/Desktop/demoo/src/java/ex1/NVBatChuot.java</file>
+            <file>file:/C:/Users/miticc06/Desktop/demoo/src/java/ex1/MeoBatChuot.java</file>
+            <file>file:/C:/Users/miticc06/Desktop/demoo/src/java/ex2/NhiemVuBatChuot.java</file>
             <file>file:/C:/Users/miticc06/Desktop/demoo/src/java/ex2/NhiemVu.java</file>
-            <file>file:/C:/Users/miticc06/Desktop/demoo/src/java/ex1/NVGiaiCuu.java</file>
+            <file>file:/C:/Users/miticc06/Desktop/demoo/web/redirect.jsp</file>
             <file>file:/C:/Users/miticc06/Desktop/demoo/nbproject/build-impl.xml</file>
         </group>
     </open-files>

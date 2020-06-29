@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-import ex1.HiepSiGiaiCuu;
+import ex1.MeoBatChuot;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -40,7 +40,7 @@ public class ex1Servlet extends HttpServlet {
             out.println("<title>Servlet ex1Servlet</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>knight1: " + new HiepSiGiaiCuu().ThamGiaNV()+ "</h1>");
+            out.println("<h1>mèo: " + new MeoBatChuot().ThamGiaNV()+ "</h1>");
             out.println("</body>");
             out.println("</html>");
         }

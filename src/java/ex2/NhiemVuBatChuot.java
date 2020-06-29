@@ -9,11 +9,11 @@ package ex2;
  *
  * @author miticc06
  */
-public class NhiemVuDietRong extends  NhiemVu {
+public class NhiemVuBatChuot extends  NhiemVu {
 
     @Override
     public String ThucHien() {
-        return "Thực hiện nhiệm vụ diệt rồng!";
+        return "Thực hiện nhiệm vụ bắt chuột!";
     }
     
 }

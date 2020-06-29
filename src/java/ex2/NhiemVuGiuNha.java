@@ -9,14 +9,11 @@ package ex2;
  *
  * @author miticc06
  */
-public class HiepSi {
-    private NhiemVu nhiemVu;
+public class NhiemVuGiuNha extends  NhiemVu {
 
-    public HiepSi(NhiemVu nhiemVu) {
-        this.nhiemVu = nhiemVu;
+    @Override
+    public String ThucHien() {
+        return "Thực hiện nhiệm vụ giữ nhà!";
     }
     
-    public String ThamGia() {
-        return nhiemVu.ThucHien();
-    }       
 }

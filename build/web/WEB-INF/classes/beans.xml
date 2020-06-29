@@ -4,6 +4,6 @@
 
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
 ">
-    <bean id="NhiemVuGiaiCuu" class="ex2.NhiemVuGiaiCuu"></bean>
-    <bean id="NhiemVuDietRong" class="ex2.NhiemVuDietRong"></bean>
+    <bean id="NhiemVuBatChuot" class="ex2.NhiemVuBatChuot"></bean>
+    <bean id="NhiemVuGiuNha" class="ex2.NhiemVuGiuNha"></bean>
 </beans>

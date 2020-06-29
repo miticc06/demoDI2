@@ -12,13 +12,13 @@ package ex1;
  * @author miticc06
  */
 
-// Hiệp sĩ giải cứu 
-public class HiepSiGiaiCuu {
+// Mèo bắt chuột
+public class MeoBatChuot {
 
-    private NVGiaiCuu nvGiaiCuu;
+    private NVBatChuot nvGiaiCuu;
     
-    public HiepSiGiaiCuu() {
-        nvGiaiCuu = new NVGiaiCuu();
+    public MeoBatChuot() {
+        nvGiaiCuu = new NVBatChuot();
     }
     
     public String ThamGiaNV() {
