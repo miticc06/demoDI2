@@ -15,13 +15,13 @@ package ex1;
 // Mèo bắt chuột
 public class MeoBatChuot {
 
-    private NVBatChuot nvGiaiCuu;
+    private NVBatChuot nvBatChuot;
     
     public MeoBatChuot() {
-        nvGiaiCuu = new NVBatChuot();
+        nvBatChuot = new NVBatChuot();
     }
     
     public String ThamGiaNV() {
-        return nvGiaiCuu.ThucHien();
+        return nvBatChuot.ThucHien();
     }
 }
